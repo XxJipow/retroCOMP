@@ -611,7 +611,7 @@ const AI = {
     randomImprovement.call(this);
 
     const improvementsElement = document.getElementById('ai-improvements');
-    improvementsElement.innerHTML = `<h3>AI Improvements:</h3><br>CA:${this.thoughts[this.thoughts.length - 1]}`;
+    improvementsElement.innerHTML = `<h3>AI Improvements:</h3><br>CA:<br>${this.thoughts[this.thoughts.length - 1]}`;
   },
 
   adjustColorScheme: function() {
